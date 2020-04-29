@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:black;">
+<center>
+<head>
+	<title>Keyframes</title>
+	<center>
+	<style>
+
+
+
+		
+	.dot {
+  height: 350px;
+  width: 350px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+
+  position: absolute;
+  animation: slide 8s infinite;
+background: linear-gradient(180deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3);
+background-size: 10% 10%;
+
+}
+
+@keyframes slide { 
+  0%   {top: 0px; left: 0px; background: #ff2400;}
+  30%  {top: 0px; left: 900px; background: #e8b71d;}
+  60%  {top: 360px; left: 900px; background: #1de840;}
+  90%  {top: 360px; left: 0px; background: #2b1de8;}
+  100% {top: 0px; left: 0px; background: #dd00f3;}
+
+	</style>
+
+	<div class="dot"></div>
+
+	 
+	
+	</script>
+</body>
+</html>

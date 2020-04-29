@@ -24,15 +24,15 @@
 background-image:url("https://media.giphy.com/media/Q22kcRdASuBvW/giphy.gif"); 
   background-repeat:no-repeat;
   background-size:cover;
-  
 }
+
 .container:hover{
   
-  background-color:powderblue;
+  background-color:lightblue;
 }
 
 #NiccoS-name:hover{
-animation-name:expand; 
+animation-name:shrink; 
   animation-duration:10s;
   animation-iteration-count:infinite;
   transition:.5s ease-in-out;
